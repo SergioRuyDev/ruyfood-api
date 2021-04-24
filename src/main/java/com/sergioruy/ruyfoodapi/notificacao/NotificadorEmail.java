@@ -1,7 +1,9 @@
 package com.sergioruy.ruyfoodapi.notificacao;
 
 import com.sergioruy.ruyfoodapi.modelo.Cliente;
+import org.springframework.stereotype.Component;
 
+@Component
 public class NotificadorEmail {
 
     public void notificar(Cliente cliente, String mensagem) {
