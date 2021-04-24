@@ -1,15 +1,15 @@
 package com.sergioruy.ruyfoodapi.service;
 
 import com.sergioruy.ruyfoodapi.modelo.Cliente;
-import com.sergioruy.ruyfoodapi.notificacao.NotificadorEmail;
+import com.sergioruy.ruyfoodapi.notificacao.Notificador;
 import org.springframework.stereotype.Component;
 
 @Component
 public class AtivacaoClienteService {
 
-    private NotificadorEmail notificador;
+    private Notificador notificador;
 
-    public AtivacaoClienteService(NotificadorEmail notificador) {
+    public AtivacaoClienteService(Notificador notificador) {
         this.notificador = notificador;
 
         System.out.println("AtivacaoClienteService: " + notificador);
