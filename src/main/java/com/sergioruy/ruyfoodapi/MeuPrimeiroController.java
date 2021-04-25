@@ -13,6 +13,7 @@ public class MeuPrimeiroController {
 
     public MeuPrimeiroController(AtivacaoClienteService ativacaoClienteService) {
         this.ativacaoClienteService = ativacaoClienteService;
+
         System.out.println("MeuPrimeiroController: " + ativacaoClienteService);
     }
 

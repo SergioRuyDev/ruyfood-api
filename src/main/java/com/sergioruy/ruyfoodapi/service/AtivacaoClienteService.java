@@ -4,7 +4,6 @@ import com.sergioruy.ruyfoodapi.modelo.Cliente;
 import com.sergioruy.ruyfoodapi.notificacao.Notificador;
 import org.springframework.stereotype.Component;
 
-@Component
 public class AtivacaoClienteService {
 
     private Notificador notificador;
