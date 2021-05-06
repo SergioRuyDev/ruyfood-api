@@ -2,7 +2,6 @@ package com.sergioruy.ruyfoodapi.service;
 
 import com.sergioruy.ruyfoodapi.modelo.Cliente;
 import com.sergioruy.ruyfoodapi.notificacao.Notificador;
-import org.springframework.stereotype.Component;
 
 public class AtivacaoClienteService {
 
@@ -11,7 +10,6 @@ public class AtivacaoClienteService {
     public AtivacaoClienteService(Notificador notificador) {
         this.notificador = notificador;
 
-        System.out.println("AtivacaoClienteService: " + notificador);
     }
 
     public void ativar(Cliente cliente) {
