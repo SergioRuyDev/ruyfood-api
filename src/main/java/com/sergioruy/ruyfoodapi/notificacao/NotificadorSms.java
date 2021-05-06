@@ -1,10 +1,11 @@
 package com.sergioruy.ruyfoodapi.notificacao;
 
 import com.sergioruy.ruyfoodapi.modelo.Cliente;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Primary
+@Qualifier("sms")
 @Component
 public class NotificadorSms implements Notificador {
 
