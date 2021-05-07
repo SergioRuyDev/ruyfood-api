@@ -1,4 +1,4 @@
-package com.sergioruy.ruyfoodapi.notificacao;
+package com.sergioruy.ruyfoodapi.di.notificacao;
 
 public enum NivelUrgencia {
 

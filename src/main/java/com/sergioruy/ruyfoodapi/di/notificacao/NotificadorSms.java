@@ -1,8 +1,6 @@
-package com.sergioruy.ruyfoodapi.notificacao;
+package com.sergioruy.ruyfoodapi.di.notificacao;
 
-import com.sergioruy.ruyfoodapi.modelo.Cliente;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
+import com.sergioruy.ruyfoodapi.di.modelo.Cliente;
 import org.springframework.stereotype.Component;
 
 @TipoDoNotificador(NivelUrgencia.URGENTE)

@@ -1,4 +1,4 @@
-package com.sergioruy.ruyfoodapi.modelo;
+package com.sergioruy.ruyfoodapi.di.modelo;
 
 public class Cliente {
 

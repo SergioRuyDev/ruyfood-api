@@ -1,6 +1,6 @@
-package com.sergioruy.ruyfoodapi.notificacao;
+package com.sergioruy.ruyfoodapi.di.notificacao;
 
-import com.sergioruy.ruyfoodapi.modelo.Cliente;
+import com.sergioruy.ruyfoodapi.di.modelo.Cliente;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
