@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class AtivacaoClienteService {
 
-    @Qualifier("sms")
+    @Qualifier("urgente")
     @Autowired
     private Notificador notificador;
 
