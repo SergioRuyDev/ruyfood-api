@@ -1,16 +1,17 @@
 package com.sergioruy.ruyfoodapi.service;
 
 import com.sergioruy.ruyfoodapi.modelo.Cliente;
+import com.sergioruy.ruyfoodapi.notificacao.NivelUrgencia;
 import com.sergioruy.ruyfoodapi.notificacao.Notificador;
+import com.sergioruy.ruyfoodapi.notificacao.TipoDoNotificador;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 
 @Component
 public class AtivacaoClienteService {
 
-    @Qualifier("urgente")
+    @TipoDoNotificador(NivelUrgencia.SEM_URGENCIA)
     @Autowired
     private Notificador notificador;
 
